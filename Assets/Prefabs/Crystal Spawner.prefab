@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3673837261294672654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3673837261294672655}
+  - component: {fileID: 3673837261294672640}
+  - component: {fileID: 3673837261294672641}
+  m_Layer: 0
+  m_Name: Crystal Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3673837261294672655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3673837261294672654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3673837261294672640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3673837261294672654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8fe3a9e0d7ea144f9ab08c44f4e2d08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _terrain: {fileID: 0}
+  _infoPanel: {fileID: 0}
+  spawnedObjects: []
+  _crystalPrefab: {fileID: 7014218859487449133, guid: 25433928b9eec084db1d60cdb53a3951,
+    type: 3}
+  initialCountCrystals: {fileID: 11400000, guid: 6e044a20ffbe405418e0680f1023aa5a,
+    type: 2}
+  maxCrystals: {fileID: 11400000, guid: 76b189d225048474f85718afda166782, type: 2}
+  spawnInterval: {fileID: 11400000, guid: a1f48f965d7276149be2d6755fbe1112, type: 2}
+--- !u!114 &3673837261294672641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3673837261294672654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41da329832d9b994f948e534669e9052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _character: {fileID: 0}
+  _infoPanel: {fileID: 0}
